@@ -55,7 +55,7 @@ const Signin = () => {
         <View className="p-5">
           <InputField
             label="Email"
-            placeholder="Enter your email"
+            placeholder="Enter your emai"
             icon={icons.email}
             value={form.email}
             onChangeText={(value) => setForm({ ...form, email: value })}
